@@ -15,7 +15,24 @@ const Development = () => {
           title="Project Title"
           description="Project description"
           stack="Tech stack used"
+          demo="https://cleanfolio.netlify.app/"
           code="https://github.com/nlaldev/Portfolio-plus"
+          image={Screenshot}
+        />
+        <Project
+          title="Project Title"
+          description="Project description"
+          stack="Tech stack used"
+          demo="https://cleanfolio.netlify.app/"
+          code="https://github.com/nlaldev/Cleanfolio"
+          image={Screenshot}
+        />
+        <Project
+          title="Project Title"
+          description="Project description"
+          stack="Tech stack used"
+          demo="https://cleanfolio.netlify.app/"
+          code="https://github.com/nlaldev/Cleanfolio"
           image={Screenshot}
         />
       </section>
