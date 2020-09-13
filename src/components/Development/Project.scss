@@ -1,0 +1,82 @@
+@import "../../styles/global.scss";
+
+.project {
+  margin: 70px 0;
+  &__wrapper {
+    margin-bottom: 25px;
+    max-width: 690px;
+  }
+  &__title {
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: $subheading;
+  }
+  &__description {
+    margin-bottom: 15px;
+    text-align: start;
+    font-weight: 500;
+  }
+  &__stack {
+    margin-bottom: 15px;
+    text-align: start;
+  }
+  &__links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__link {
+    @include link;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  &__demo {
+    border: $border-black;
+    transition: 0.1s ease-in-out;
+    &:hover {
+      @include inverted;
+    }
+  }
+  &__code {
+    transition: 0.1s ease-in-out;
+    &:hover {
+      margin-left: 3px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    margin: auto;
+    max-width: 690px;
+    border-radius: 5px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.175);
+  }
+}
+
+@include tablet {
+  .project {
+    &__wrapper {
+      margin-bottom: 50px;
+    }
+    &__title {
+      font-size: $tablet-subheading;
+    }
+  }
+}
+
+@include desktop {
+  .project {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    &__wrapper {
+      width: 350px;
+      margin: 0;
+    }
+    &__image {
+      width: 660px;
+      margin: 0;
+    }
+  }
+}

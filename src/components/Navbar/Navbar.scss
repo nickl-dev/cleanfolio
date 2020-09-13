@@ -1,0 +1,28 @@
+@import "../../styles/global.scss";
+
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  box-shadow: 1px 3px 6px 0px rgba(50, 50, 50, 0.3);
+  background: $stockWhite;
+  &__link {
+    margin: 0 20px;
+    color: $stockBlack;
+    transition: box-shadow 0.1s ease-in-out;
+    outline: none;
+    &:hover {
+      box-shadow: 0 3px 2px -2px rgba(50, 50, 50, 1);
+    }
+
+    &--active {
+      box-shadow: 0 3px 2px -2px rgba(50, 50, 50, 0.5);
+    }
+  }
+}
