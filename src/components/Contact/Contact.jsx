@@ -11,10 +11,10 @@ const Contact = () => {
         Thank you for taking the time to view my portfolio.
       </h2>
       <div className="contact__links">
-        <a className="contact__link">
+        <a className="contact__link" href="https://cleanfolio.netlify.app/">
           <LinkedInIcon style={{ fontSize: "50px" }} />
         </a>
-        <a className="contact__link">
+        <a className="contact__link" href="https://cleanfolio.netlify.app/">
           <GitHubIcon style={{ fontSize: "40px" }} />
         </a>
       </div>
