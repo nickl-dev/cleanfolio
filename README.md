@@ -3,8 +3,8 @@
 ### To get started...
 
 1. Clone this repo
-2. <addr>npm install</addr>
-3. Change name and tab icon in the <addr>index.html</addr>
+2. npm install
+3. Change name and tab icon in the **index.html**
 4. Change your name, picture, bio and resume link in **About**
 5. Use the Project props accordingly in **Development** to showcase your work and add your skills at the bottom in the technologies section
 6. Link the LinkedIn and Github icons to your profiles
