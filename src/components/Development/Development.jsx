@@ -9,7 +9,7 @@ const Development = () => {
   Aos.init();
   return (
     <div className="development">
-      <section className="projects">
+      <section className="projects" data-aos="fade-in">
         <h1 className="projects__heading">PROJECTS</h1>
         <Project
           title="Project Title"
@@ -36,7 +36,7 @@ const Development = () => {
           image={Screenshot}
         />
       </section>
-      <section
+      {/* <section
         className="technologies"
         data-aos="fade-in"
         data-aos-duration="1000"
@@ -54,7 +54,7 @@ const Development = () => {
           <h4 className="technologies__stack-heading">Other</h4>
           <p className="technologies__list">Other skills here</p>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

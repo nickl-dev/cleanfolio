@@ -1,18 +1,19 @@
 import React from "react";
 import Aos from "aos";
+import "aos/dist/aos.css";
 import Typical from "react-typical";
 import Avatar from "../../assets/avatar.jpg";
 import Resume from "../../assets/resume.pdf";
-
 import "./About.scss";
-import "aos/dist/aos.css";
 
 const About = () => {
   Aos.init();
   return (
     <div className="about">
       <header className="about__header">
-        <h1 className="about__heading">HI, I'M YOUR NAME</h1>
+        <h1 className="about__heading" data-aos="fade-in">
+          HI, I'M YOUR NAME
+        </h1>
         <Typical
           className="about__subheading"
           steps={["I'M A WEB DEVELOPER", 1000]}
