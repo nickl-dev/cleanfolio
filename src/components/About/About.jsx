@@ -30,10 +30,7 @@ const About = () => {
         />
         <div className="about__subwrapper">
           <p className="about__bio" data-aos="fade-up" data-aos-duration="1000">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-            explicabo recusandae quod neque dolore. Facilis exercitationem
-            officiis ab placeat sit quod, laboriosam eum ipsum fuga voluptatibus
-            quidem a fugit rem?
+            Profile section (3-4 sentences).
           </p>
           <a
             href={Resume}
