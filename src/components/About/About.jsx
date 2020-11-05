@@ -30,7 +30,10 @@ const About = () => {
         />
         <div className="about__subwrapper">
           <p className="about__bio" data-aos="fade-up" data-aos-duration="1000">
-            Profile section (3-4 sentences).
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quas
+            quis quos facere harum soluta, cumque labore quod voluptates
+            voluptatum repudiandae consectetur nobis eveniet, dolorum dicta
+            culpa iusto nemo officiis.
           </p>
           <a
             href={Resume}
